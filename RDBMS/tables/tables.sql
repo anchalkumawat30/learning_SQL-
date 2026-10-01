@@ -8,3 +8,6 @@ INSERT INTO student (student_ID , Name , Course) VALUES
 	( 101, 'Anchal kumawat', 'BCA'),
 	( 102, 'Arpita kumawat', 'NEET'),
 	( 103, 'Priyanshu kumawat', 'NEET');
+
+--Show the records from the student table 
+SELECT * FROM student ;
