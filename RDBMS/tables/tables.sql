@@ -11,3 +11,7 @@ INSERT INTO student (student_ID , Name , Course) VALUES
 
 --Show the records from the student table 
 SELECT * FROM student ;
+
+--Add one more record 
+INSERT INTO student (student_ID , Name , Course) VALUES 
+	(104, 'Raghav kumawat', '7th class');
