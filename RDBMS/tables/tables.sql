@@ -22,3 +22,20 @@ SELECT * FROM student ;
 --Adding one more column in student table 
 ALTER TABLE student 
 ADD COLUMN age INTEGER
+
+--Adding the data in new coulmn
+UPDATE student 
+SET age = 19
+WHERE student_ID = 101;
+
+UPDATE student 
+SET age = 16
+WHERE name = 'Arpita kumawat';
+
+UPDATE student 
+SET age = 16 
+WHERE name = 'Priyanshu kumawat';
+
+UPDATE student 
+SET age = 13
+WHERE name = 'Raghav kumawat';
