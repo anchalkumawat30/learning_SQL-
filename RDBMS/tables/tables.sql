@@ -18,3 +18,7 @@ INSERT INTO student (student_ID , Name , Course) VALUES
 
 --Show the records from the student table
 SELECT * FROM student ;
+
+--Adding one more column in student table 
+ALTER TABLE student 
+ADD COLUMN age INTEGER
