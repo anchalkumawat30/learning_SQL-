@@ -39,3 +39,6 @@ WHERE name = 'Priyanshu kumawat';
 UPDATE student 
 SET age = 13
 WHERE name = 'Raghav kumawat';
+
+--Show the table 
+select * from student ;
