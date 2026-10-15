@@ -45,3 +45,6 @@ select * from student ;
 
 --Specific attributes retrive 
 SELECT student_id, name, course FROM student;
+
+--cardinality count 
+SELECT COUNT (*) AS cardinality FROM student;
