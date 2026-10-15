@@ -48,3 +48,9 @@ SELECT student_id, name, course FROM student;
 
 --cardinality count 
 SELECT COUNT (*) AS cardinality FROM student;
+
+--Degree count 
+SELECT COUNT (*) AS degree FROM 
+information_schema.columns
+WHERE table_schema = 'public'
+AND table_name = 'student';
