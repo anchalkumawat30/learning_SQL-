@@ -42,3 +42,6 @@ WHERE name = 'Raghav kumawat';
 
 --Show the table 
 select * from student ;
+
+--Specific attributes retrive 
+SELECT student_id, name, course FROM student;
