@@ -54,3 +54,7 @@ SELECT COUNT (*) AS degree FROM
 information_schema.columns
 WHERE table_schema = 'public'
 AND table_name = 'student';
+
+--Filter Tuples
+SELECT * FROM student
+WHERE course = 'BCA';
